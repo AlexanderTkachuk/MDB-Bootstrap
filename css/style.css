@@ -1,0 +1,40 @@
+html,body,header, #intro {
+    height: 100%;
+}
+
+#intro {
+    background: url(https://images.pexels.com/photos/1081111/pexels-photo-1081111.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #24355c;
+}
+
+.telega {
+    margin: 0 0 0 10px;
+}
+
+label {
+    padding-left: 20px;
+}
+
+.icon {
+    border: 1px solid transparent;
+    border-radius: 15px;
+    font-size: 30px;
+    transition: color 2s;
+}
+
+.icon:hover {
+    color: black;
+}
+
+footer {
+     margin-top: 20px;
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background-color: #24355c;
+    }
+}
